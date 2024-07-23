@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "pm-vis"
+version = "0.1.0"
+description = ""
+authors = ["ANDREW HIGGINS <AJHIGGINS96@BERKELEY.EDU>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+streamlit = "1.35.0"
+matplotlib = "^3.9.0"
+scipy = "^1.13.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
